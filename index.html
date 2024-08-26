@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CrocoLab - Веб-студия</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap"
+    />
+  </head>
+  <body>
+    <!-- Навигация -->
+    <header>
+      <nav>
+        <div class="logo">CrocoLab</div>
+        <ul>
+          <li><a href="#about">О нас</a></li>
+          <li><a href="#services">Услуги</a></li>
+          <li><a href="#portfolio">Портфолио</a></li>
+          <li><a href="#blog">Блог</a></li>
+          <li><a href="#contact">Контакты</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Главная страница -->
+    <section class="hero">
+      <h1>Создаём цифровые шедевры вместе</h1>
+      <p>CrocoLab – ваша дверь в мир веб-разработки</p>
+      <a href="#contact" class="cta-button">Связаться с нами</a>
+    </section>
+
+    <!-- О нас -->
+    <section id="about" class="about">
+      <h2>Кто мы?</h2>
+      <p>
+        Мы – команда креативных профессионалов, создающих сайты, которые
+        привлекают и впечатляют.
+      </p>
+      <div class="team">
+        <div class="team-member">
+          <img src="team1.jpg" alt="Команда 1" />
+          <h3>Илон Маска</h3>
+          <p>Веб-дизайнер</p>
+        </div>
+        <div class="team-member">
+          <img src="team2.jpg" alt="Команда 2" />
+          <h3>Марк Захарман</h3>
+          <p>Разработчик</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Услуги -->
+    <section id="services" class="services">
+      <h2>Наши услуги</h2>
+      <div class="service-cards">
+        <div class="service-card">
+          <h3>Веб-разработка</h3>
+          <p>Создание современных и адаптивных сайтов.</p>
+        </div>
+        <div class="service-card">
+          <h3>Дизайн интерфейсов</h3>
+          <p>Интуитивно понятные и привлекательные дизайны.</p>
+        </div>
+        <div class="service-card">
+          <h3>SEO-оптимизация</h3>
+          <p>Продвижение сайтов в поисковых системах.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Портфолио -->
+    <section id="portfolio" class="portfolio">
+      <h2>Наши работы</h2>
+      <div class="portfolio-gallery">
+        <div class="portfolio-item">
+          <img src="project1.jpg" alt="Проект 1" />
+          <h3>Проект 1</h3>
+        </div>
+        <div class="portfolio-item">
+          <img src="project2.jpg" alt="Проект 2" />
+          <h3>Проект 2</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact" class="contact">
+      <h2>Свяжитесь с нами</h2>
+      <form action="#" method="POST">
+        <label for="name">Имя</label>
+        <input type="text" id="name" name="name" required />
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+        <label for="message">Сообщение</label>
+        <textarea id="message" name="message" required></textarea>
+        <button type="submit">Отправить</button>
+      </form>
+    </section>
+
+    <!-- Футер -->
+    <footer>
+      <p>&copy; 2024 CrocoLab. Все права защищены.</p>
+      <ul>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">LinkedIn</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
